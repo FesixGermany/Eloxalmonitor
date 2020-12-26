@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Eloxalmonitor-rescue)(type Legacy)(uri ${KIPRJMOD}/Eloxalmonitor-rescue.lib)(options "")(descr ""))
+)
