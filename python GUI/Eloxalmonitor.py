@@ -84,7 +84,7 @@ fig.canvas.flush_events()
 # write header for for csv
 with open("test_data.csv","a") as f:
 	writer = csv.writer(f,delimiter = ";")
-	writer.writerow(['Temp1','Temp2','Current','Voltage'])
+	writer.writerow(['Temp1','Temp2','Voltage','Current'])
 
 # main program loop
 while True:
