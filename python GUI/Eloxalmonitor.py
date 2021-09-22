@@ -8,6 +8,7 @@
 	
 	Tested with:
 		python 2.7
+        python 3.9 (change code in line 32!)
 		pyserial 3.5
 		matplotlib 2.2.5
 		numpy 1.16.0
@@ -28,7 +29,7 @@ import numpy as np
 degree_sign = u"\N{DEGREE SIGN}"
 
 # which COM port to get data from
-comport = raw_input("Enter COM port: ")
+comport = raw_input("Enter COM port: ")     # For python 3 use input() instead of raw_input()
 
 try:
 	ser = serial.Serial(comport)
